@@ -1,0 +1,20 @@
+@import 'theme.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: inherit;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: var(--token-background-brand-default);
+  color: var(--token-text-default);
+  font-family: var(--font-family-default);
+  -webkit-tap-highlight-color: transparent;
+}
